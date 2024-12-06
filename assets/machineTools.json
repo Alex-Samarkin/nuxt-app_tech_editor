@@ -1,0 +1,234 @@
+{
+  "machineTools": [
+    {
+      "id": "MT001",
+      "type": "End Mill",
+      "manufacturer": "Sandvik Coromant",
+      "model": "CoroMill 390",
+      "material": "Carbide",
+      "coating": "TiAlN",
+      "diameter": 12,
+      "length": 83,
+      "flutes": 4,
+      "specifications": {
+        "cutting_speed": "200-300 m/min",
+        "feed_rate": "0.1-0.3 mm/tooth",
+        "max_depth_of_cut": "36 mm"
+      },
+      "compatibility": ["M001", "M004", "M007", "M010", "M013", "M016", "M019"]
+    },
+    {
+      "id": "MT002",
+      "type": "Turning Insert",
+      "manufacturer": "Kennametal",
+      "model": "KCP10",
+      "material": "Ceramic",
+      "coating": "PVD",
+      "insert_size": "CNMG 12 04 08",
+      "specifications": {
+        "cutting_speed": "300-800 m/min",
+        "feed_rate": "0.1-0.4 mm/rev",
+        "depth_of_cut": "0.5-4.0 mm"
+      },
+      "compatibility": ["M002", "M005", "M008", "M011", "M014", "M017", "M020"]
+    },
+    {
+      "id": "MT003",
+      "type": "EDM Wire",
+      "manufacturer": "Bedra",
+      "model": "MegaCut",
+      "material": "Brass",
+      "diameter": 0.25,
+      "specifications": {
+        "tensile_strength": "900 N/mm²",
+        "conductivity": "16 MS/m",
+        "surface_speed": "0.5-2.5 m/min"
+      },
+      "compatibility": ["M003", "M006", "M009", "M012", "M015", "M018"]
+    },
+    {
+      "id": "MT004",
+      "type": "End Mill",
+      "manufacturer": "Mitsubishi Materials",
+      "model": "Impact Miracle",
+      "material": "Carbide",
+      "coating": "AlCrN",
+      "diameter": 16,
+      "length": 92,
+      "flutes": 6,
+      "specifications": {
+        "cutting_speed": "180-280 m/min",
+        "feed_rate": "0.08-0.25 mm/tooth",
+        "max_depth_of_cut": "48 mm"
+      },
+      "compatibility": ["M001", "M004", "M007", "M010", "M013", "M016", "M019"]
+    },
+    {
+      "id": "MT005",
+      "type": "Turning Insert",
+      "manufacturer": "Iscar",
+      "model": "IC907",
+      "material": "Carbide",
+      "coating": "TiCN",
+      "insert_size": "WNMG 08 04 12",
+      "specifications": {
+        "cutting_speed": "150-400 m/min",
+        "feed_rate": "0.15-0.45 mm/rev",
+        "depth_of_cut": "0.8-5.0 mm"
+      },
+      "compatibility": ["M002", "M005", "M008", "M011", "M014", "M017", "M020"]
+    },
+    {
+      "id": "MT006",
+      "type": "EDM Wire",
+      "manufacturer": "Thermocompact",
+      "model": "TopCut",
+      "material": "Zinc-Coated Brass",
+      "diameter": 0.2,
+      "specifications": {
+        "tensile_strength": "950 N/mm²",
+        "conductivity": "18 MS/m",
+        "surface_speed": "0.6-3.0 m/min"
+      },
+      "compatibility": ["M003", "M006", "M009", "M012", "M015", "M018"]
+    },
+    {
+      "id": "MT007",
+      "type": "End Mill",
+      "manufacturer": "OSG",
+      "model": "AE-VMS",
+      "material": "Carbide",
+      "coating": "DUARISE",
+      "diameter": 10,
+      "length": 72,
+      "flutes": 4,
+      "specifications": {
+        "cutting_speed": "220-320 m/min",
+        "feed_rate": "0.12-0.35 mm/tooth",
+        "max_depth_of_cut": "30 mm"
+      },
+      "compatibility": ["M001", "M004", "M007", "M010", "M013", "M016", "M019"]
+    },
+    {
+      "id": "MT008",
+      "type": "Turning Insert",
+      "manufacturer": "Sandvik Coromant",
+      "model": "GC4325",
+      "material": "Carbide",
+      "coating": "CVD",
+      "insert_size": "DNMG 15 06 08",
+      "specifications": {
+        "cutting_speed": "200-450 m/min",
+        "feed_rate": "0.2-0.6 mm/rev",
+        "depth_of_cut": "1.0-6.0 mm"
+      },
+      "compatibility": ["M002", "M005", "M008", "M011", "M014", "M017", "M020"]
+    },
+    {
+      "id": "MT009",
+      "type": "EDM Wire",
+      "manufacturer": "Chmer",
+      "model": "GammaX",
+      "material": "Coated Brass",
+      "diameter": 0.15,
+      "specifications": {
+        "tensile_strength": "1000 N/mm²",
+        "conductivity": "20 MS/m",
+        "surface_speed": "0.4-2.0 m/min"
+      },
+      "compatibility": ["M003", "M006", "M009", "M012", "M015", "M018"]
+    },
+    {
+      "id": "MT010",
+      "type": "End Mill",
+      "manufacturer": "WIDIA",
+      "model": "Victory",
+      "material": "Carbide",
+      "coating": "TiN",
+      "diameter": 20,
+      "length": 104,
+      "flutes": 5,
+      "specifications": {
+        "cutting_speed": "160-260 m/min",
+        "feed_rate": "0.15-0.4 mm/tooth",
+        "max_depth_of_cut": "60 mm"
+      },
+      "compatibility": ["M001", "M004", "M007", "M010", "M013", "M016", "M019"]
+    },
+    {
+      "id": "MT011",
+      "type": "Turning Insert",
+      "manufacturer": "Mitsubishi Materials",
+      "model": "MC6015",
+      "material": "Cermet",
+      "coating": "PVD",
+      "insert_size": "TNMG 16 04 08",
+      "specifications": {
+        "cutting_speed": "250-500 m/min",
+        "feed_rate": "0.1-0.5 mm/rev",
+        "depth_of_cut": "0.5-5.0 mm"
+      },
+      "compatibility": ["M002", "M005", "M008", "M011", "M014", "M017", "M020"]
+    },
+    {
+      "id": "MT012",
+      "type": "EDM Wire",
+      "manufacturer": "JIS",
+      "model": "SuperCut",
+      "material": "Brass",
+      "diameter": 0.3,
+      "specifications": {
+        "tensile_strength": "850 N/mm²",
+        "conductivity": "15 MS/m",
+        "surface_speed": "0.7-3.5 m/min"
+      },
+      "compatibility": ["M003", "M006", "M009", "M012", "M015", "M018"]
+    },
+    {
+      "id": "MT013",
+      "type": "End Mill",
+      "manufacturer": "Kennametal",
+      "model": "HARVI",
+      "material": "Carbide",
+      "coating": "AlTiN",
+      "diameter": 8,
+      "length": 63,
+      "flutes": 4,
+      "specifications": {
+        "cutting_speed": "240-340 m/min",
+        "feed_rate": "0.08-0.2 mm/tooth",
+        "max_depth_of_cut": "24 mm"
+      },
+      "compatibility": ["M001", "M004", "M007", "M010", "M013", "M016", "M019"]
+    },
+    {
+      "id": "MT014",
+      "type": "Turning Insert",
+      "manufacturer": "Tungaloy",
+      "model": "T9115",
+      "material": "Carbide",
+      "coating": "CVD",
+      "insert_size": "VNMG 16 04 08",
+      "specifications": {
+        "cutting_speed": "180-420 m/min",
+        "feed_rate": "0.18-0.55 mm/rev",
+        "depth_of_cut": "0.7-4.5 mm"
+      },
+      "compatibility": ["M002", "M005", "M008", "M011", "M014", "M017", "M020"]
+    },
+    {
+      "id": "MT015",
+      "type": "EDM Wire",
+      "manufacturer": "Berkenhoff",
+      "model": "CobraCut",
+      "material": "Zinc-Coated Brass",
+      "diameter": 0.18,
+      "specifications": {
+        "tensile_strength": "980 N/mm²",
+        "conductivity": "19 MS/m",
+        "surface_speed": "0.5-2.8 m/min"
+      },
+      "compatibility": ["M003", "M006", "M009", "M012", "M015", "M018"]
+    }
+  ]
+}

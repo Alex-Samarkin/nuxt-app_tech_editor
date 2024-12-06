@@ -1,0 +1,148 @@
+{
+  "operations": [
+    {
+      "id": "op1",
+      "type": "Lathe",
+      "name": "External Turning",
+      "description": "Removes material from the outer diameter of a rotating workpiece",
+      "parameters": {
+        "cutting_speed": "150-300 m/min",
+        "feed_rate": "0.1-0.5 mm/rev",
+        "depth_of_cut": "0.5-5 mm",
+        "tool_type": "External turning tool"
+      },
+      "compatible_materials": ["Steel", "Aluminum", "Brass", "Plastic"],
+      "safety_requirements": [
+        "Wear safety glasses",
+        "Use chip shield",
+        "Secure workpiece properly"
+      ]
+    },
+    {
+      "id": "op2",
+      "type": "Lathe",
+      "name": "Internal Boring",
+      "description": "Enlarges and finishes internal holes in a rotating workpiece",
+      "parameters": {
+        "cutting_speed": "100-250 m/min",
+        "feed_rate": "0.1-0.3 mm/rev",
+        "depth_of_cut": "0.3-3 mm",
+        "tool_type": "Boring bar"
+      },
+      "compatible_materials": ["Steel", "Aluminum", "Brass"],
+      "safety_requirements": [
+        "Ensure proper tool overhang",
+        "Check hole depth",
+        "Use appropriate speeds"
+      ]
+    },
+    {
+      "id": "op3",
+      "type": "Mill",
+      "name": "Face Milling",
+      "description": "Creates flat surfaces perpendicular to the tool axis",
+      "parameters": {
+        "cutting_speed": "100-500 m/min",
+        "feed_rate": "0.1-0.5 mm/tooth",
+        "depth_of_cut": "1-5 mm",
+        "tool_type": "Face mill"
+      },
+      "compatible_materials": ["Steel", "Aluminum", "Cast Iron", "Brass"],
+      "safety_requirements": [
+        "Secure workpiece in vice",
+        "Use proper cutting fluid",
+        "Check tool rotation direction"
+      ]
+    },
+    {
+      "id": "op4",
+      "type": "Mill",
+      "name": "End Milling",
+      "description": "Creates slots, pockets, and contours using an end mill",
+      "parameters": {
+        "cutting_speed": "80-400 m/min",
+        "feed_rate": "0.05-0.3 mm/tooth",
+        "depth_of_cut": "0.5-3 mm",
+        "tool_type": "End mill"
+      },
+      "compatible_materials": ["Steel", "Aluminum", "Plastic", "Brass"],
+      "safety_requirements": [
+        "Use climb milling when possible",
+        "Ensure proper tool engagement",
+        "Monitor chip formation"
+      ]
+    },
+    {
+      "id": "op5",
+      "type": "Drill",
+      "name": "Center Drilling",
+      "description": "Creates a pilot hole for subsequent drilling operations",
+      "parameters": {
+        "cutting_speed": "15-30 m/min",
+        "feed_rate": "0.05-0.15 mm/rev",
+        "depth": "2-5 mm",
+        "tool_type": "Center drill"
+      },
+      "compatible_materials": ["Steel", "Aluminum", "Brass", "Cast Iron"],
+      "safety_requirements": [
+        "Use proper speeds",
+        "Clear chips regularly",
+        "Check tool condition"
+      ]
+    },
+    {
+      "id": "op6",
+      "type": "Drill",
+      "name": "Through Hole Drilling",
+      "description": "Creates holes that pass completely through the workpiece",
+      "parameters": {
+        "cutting_speed": "20-150 m/min",
+        "feed_rate": "0.1-0.4 mm/rev",
+        "peck_depth": "2-5x diameter",
+        "tool_type": "Twist drill"
+      },
+      "compatible_materials": ["Steel", "Aluminum", "Plastic", "Wood"],
+      "safety_requirements": [
+        "Use peck drilling for deep holes",
+        "Apply cutting fluid",
+        "Secure workpiece firmly"
+      ]
+    },
+    {
+      "id": "op7",
+      "type": "Flat Mill",
+      "name": "Surface Finishing",
+      "description": "Creates smooth, flat surfaces with high surface finish",
+      "parameters": {
+        "cutting_speed": "200-600 m/min",
+        "feed_rate": "0.05-0.2 mm/tooth",
+        "depth_of_cut": "0.2-1 mm",
+        "tool_type": "Shell mill"
+      },
+      "compatible_materials": ["Steel", "Aluminum", "Cast Iron"],
+      "safety_requirements": [
+        "Use proper cutting parameters",
+        "Check surface flatness",
+        "Monitor tool wear"
+      ]
+    },
+    {
+      "id": "op8",
+      "type": "Flat Mill",
+      "name": "Step Milling",
+      "description": "Creates stepped surfaces and shoulders",
+      "parameters": {
+        "cutting_speed": "150-500 m/min",
+        "feed_rate": "0.1-0.3 mm/tooth",
+        "depth_of_cut": "1-4 mm",
+        "tool_type": "Shell mill"
+      },
+      "compatible_materials": ["Steel", "Aluminum", "Brass"],
+      "safety_requirements": [
+        "Verify step dimensions",
+        "Use appropriate depth of cut",
+        "Check tool runout"
+      ]
+    }
+  ]
+}

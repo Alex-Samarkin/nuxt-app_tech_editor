@@ -1,0 +1,384 @@
+{
+  "machines": [
+    {
+      "id": "M001",
+      "type": "Mill",
+      "mark": "Haas",
+      "model": "VF-2",
+      "company": "Haas Automation",
+      "power": "22.4 kW",
+      "dimensions": {
+        "length": 2540,
+        "width": 2032,
+        "height": 2540,
+        "unit": "mm"
+      },
+      "specialAttributes": {
+        "spindleSpeed": "12000 RPM",
+        "axisTravel": "762 x 406 x 508 mm",
+        "toolCapacity": 20
+      }
+    },
+    {
+      "id": "M002",
+      "type": "Lathe",
+      "mark": "DMG MORI",
+      "model": "NLX 2500",
+      "company": "DMG MORI",
+      "power": "18.5 kW",
+      "dimensions": {
+        "length": 3200,
+        "width": 1900,
+        "height": 1900,
+        "unit": "mm"
+      },
+      "specialAttributes": {
+        "spindleSpeed": "4000 RPM",
+        "maxTurningDiameter": "366 mm",
+        "maxTurningLength": "705 mm"
+      }
+    },
+    {
+      "id": "M003",
+      "type": "EDM",
+      "mark": "Sodick",
+      "model": "AG60L",
+      "company": "Sodick",
+      "power": "15 kW",
+      "dimensions": {
+        "length": 2400,
+        "width": 2200,
+        "height": 2350,
+        "unit": "mm"
+      },
+      "specialAttributes": {
+        "tankCapacity": "650 L",
+        "maxWorkpieceWeight": "1000 kg",
+        "wireThickness": "0.1-0.3 mm"
+      }
+    },
+    {
+      "id": "M004",
+      "type": "Mill",
+      "mark": "Mazak",
+      "model": "VTC-300C",
+      "company": "Mazak Corporation",
+      "power": "25 kW",
+      "dimensions": {
+        "length": 3200,
+        "width": 2300,
+        "height": 2720,
+        "unit": "mm"
+      },
+      "specialAttributes": {
+        "spindleSpeed": "12000 RPM",
+        "axisTravel": "1550 x 510 x 510 mm",
+        "toolCapacity": 30
+      }
+    },
+    {
+      "id": "M005",
+      "type": "Lathe",
+      "mark": "Okuma",
+      "model": "LB3000 EX",
+      "company": "Okuma Corporation",
+      "power": "22 kW",
+      "dimensions": {
+        "length": 2900,
+        "width": 1800,
+        "height": 1850,
+        "unit": "mm"
+      },
+      "specialAttributes": {
+        "spindleSpeed": "5000 RPM",
+        "maxTurningDiameter": "340 mm",
+        "maxTurningLength": "500 mm"
+      }
+    },
+    {
+      "id": "M006",
+      "type": "EDM",
+      "mark": "Mitsubishi",
+      "model": "MV2400R",
+      "company": "Mitsubishi Electric",
+      "power": "13 kW",
+      "dimensions": {
+        "length": 2745,
+        "width": 2655,
+        "height": 2330,
+        "unit": "mm"
+      },
+      "specialAttributes": {
+        "tankCapacity": "570 L",
+        "maxWorkpieceWeight": "1500 kg",
+        "wireThickness": "0.1-0.3 mm"
+      }
+    },
+    {
+      "id": "M007",
+      "type": "Mill",
+      "mark": "DMG MORI",
+      "model": "DMU 50",
+      "company": "DMG MORI",
+      "power": "21 kW",
+      "dimensions": {
+        "length": 2480,
+        "width": 2300,
+        "height": 2455,
+        "unit": "mm"
+      },
+      "specialAttributes": {
+        "spindleSpeed": "20000 RPM",
+        "axisTravel": "500 x 450 x 400 mm",
+        "toolCapacity": 16
+      }
+    },
+    {
+      "id": "M008",
+      "type": "Lathe",
+      "mark": "Doosan",
+      "model": "PUMA 2600",
+      "company": "Doosan Machine Tools",
+      "power": "22 kW",
+      "dimensions": {
+        "length": 3300,
+        "width": 1950,
+        "height": 1945,
+        "unit": "mm"
+      },
+      "specialAttributes": {
+        "spindleSpeed": "4000 RPM",
+        "maxTurningDiameter": "380 mm",
+        "maxTurningLength": "760 mm"
+      }
+    },
+    {
+      "id": "M009",
+      "type": "EDM",
+      "mark": "Makino",
+      "model": "U6 H.E.A.T",
+      "company": "Makino",
+      "power": "14 kW",
+      "dimensions": {
+        "length": 2600,
+        "width": 2500,
+        "height": 2400,
+        "unit": "mm"
+      },
+      "specialAttributes": {
+        "tankCapacity": "600 L",
+        "maxWorkpieceWeight": "1200 kg",
+        "wireThickness": "0.1-0.3 mm"
+      }
+    },
+    {
+      "id": "M010",
+      "type": "Mill",
+      "mark": "Hermle",
+      "model": "C 42",
+      "company": "Hermle AG",
+      "power": "20 kW",
+      "dimensions": {
+        "length": 3290,
+        "width": 2340,
+        "height": 2890,
+        "unit": "mm"
+      },
+      "specialAttributes": {
+        "spindleSpeed": "18000 RPM",
+        "axisTravel": "800 x 800 x 550 mm",
+        "toolCapacity": 42
+      }
+    },
+    {
+      "id": "M011",
+      "type": "Lathe",
+      "mark": "Mazak",
+      "model": "QUICK TURN 250MSY",
+      "company": "Mazak Corporation",
+      "power": "18.5 kW",
+      "dimensions": {
+        "length": 2872,
+        "width": 1900,
+        "height": 1850,
+        "unit": "mm"
+      },
+      "specialAttributes": {
+        "spindleSpeed": "4500 RPM",
+        "maxTurningDiameter": "380 mm",
+        "maxTurningLength": "500 mm"
+      }
+    },
+    {
+      "id": "M012",
+      "type": "EDM",
+      "mark": "GF Machining",
+      "model": "CUT 2000 X",
+      "company": "GF Machining Solutions",
+      "power": "12 kW",
+      "dimensions": {
+        "length": 2690,
+        "width": 2320,
+        "height": 2250,
+        "unit": "mm"
+      },
+      "specialAttributes": {
+        "tankCapacity": "550 L",
+        "maxWorkpieceWeight": "3000 kg",
+        "wireThickness": "0.1-0.3 mm"
+      }
+    },
+    {
+      "id": "M013",
+      "type": "Mill",
+      "mark": "Okuma",
+      "model": "MB-5000H",
+      "company": "Okuma Corporation",
+      "power": "30 kW",
+      "dimensions": {
+        "length": 3200,
+        "width": 4500,
+        "height": 3100,
+        "unit": "mm"
+      },
+      "specialAttributes": {
+        "spindleSpeed": "15000 RPM",
+        "axisTravel": "760 x 510 x 660 mm",
+        "toolCapacity": 40
+      }
+    },
+    {
+      "id": "M014",
+      "type": "Lathe",
+      "mark": "Haas",
+      "model": "ST-20",
+      "company": "Haas Automation",
+      "power": "14.9 kW",
+      "dimensions": {
+        "length": 3000,
+        "width": 1700,
+        "height": 1700,
+        "unit": "mm"
+      },
+      "specialAttributes": {
+        "spindleSpeed": "4000 RPM",
+        "maxTurningDiameter": "254 mm",
+        "maxTurningLength": "508 mm"
+      }
+    },
+    {
+      "id": "M015",
+      "type": "EDM",
+      "mark": "ONA",
+      "model": "AV35",
+      "company": "ONA EDM",
+      "power": "11 kW",
+      "dimensions": {
+        "length": 2400,
+        "width": 2100,
+        "height": 2200,
+        "unit": "mm"
+      },
+      "specialAttributes": {
+        "tankCapacity": "500 L",
+        "maxWorkpieceWeight": "1000 kg",
+        "wireThickness": "0.1-0.3 mm"
+      }
+    },
+    {
+      "id": "M016",
+      "type": "Mill",
+      "mark": "Doosan",
+      "model": "DNM 5700",
+      "company": "Doosan Machine Tools",
+      "power": "18.5 kW",
+      "dimensions": {
+        "length": 2750,
+        "width": 2260,
+        "height": 2810,
+        "unit": "mm"
+      },
+      "specialAttributes": {
+        "spindleSpeed": "12000 RPM",
+        "axisTravel": "1050 x 570 x 510 mm",
+        "toolCapacity": 30
+      }
+    },
+    {
+      "id": "M017",
+      "type": "Lathe",
+      "mark": "Nakamura",
+      "model": "WY-150",
+      "company": "Nakamura-Tome",
+      "power": "15 kW",
+      "dimensions": {
+        "length": 3500,
+        "width": 2000,
+        "height": 1900,
+        "unit": "mm"
+      },
+      "specialAttributes": {
+        "spindleSpeed": "5000 RPM",
+        "maxTurningDiameter": "320 mm",
+        "maxTurningLength": "400 mm"
+      }
+    },
+    {
+      "id": "M018",
+      "type": "EDM",
+      "mark": "Fanuc",
+      "model": "ROBOCUT α-C600iB",
+      "company": "Fanuc Corporation",
+      "power": "13 kW",
+      "dimensions": {
+        "length": 2440,
+        "width": 2600,
+        "height": 2150,
+        "unit": "mm"
+      },
+      "specialAttributes": {
+        "tankCapacity": "530 L",
+        "maxWorkpieceWeight": "1000 kg",
+        "wireThickness": "0.1-0.3 mm"
+      }
+    },
+    {
+      "id": "M019",
+      "type": "Mill",
+      "mark": "Makino",
+      "model": "a51nx",
+      "company": "Makino",
+      "power": "22 kW",
+      "dimensions": {
+        "length": 2300,
+        "width": 2800,
+        "height": 2700,
+        "unit": "mm"
+      },
+      "specialAttributes": {
+        "spindleSpeed": "14000 RPM",
+        "axisTravel": "560 x 510 x 510 mm",
+        "toolCapacity": 60
+      }
+    },
+    {
+      "id": "M020",
+      "type": "Lathe",
+      "mark": "Mori Seiki",
+      "model": "NL2500",
+      "company": "DMG MORI",
+      "power": "18.5 kW",
+      "dimensions": {
+        "length": 2800,
+        "width": 1800,
+        "height": 1900,
+        "unit": "mm"
+      },
+      "specialAttributes": {
+        "spindleSpeed": "4000 RPM",
+        "maxTurningDiameter": "360 mm",
+        "maxTurningLength": "530 mm"
+      }
+    }
+  ]
+}
